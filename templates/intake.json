@@ -2,9 +2,10 @@
   "_comment": "User-facing text for intake/intake.gs. Edit here; changes are live within ~5 minutes (script cache TTL). Use {{placeholder}} syntax for dynamic values.",
 
   "contact_email": "morphocloudportal@gmail.com",
+  "no_reply_disclaimer": "\n\n⚠ This message was sent from an unmonitored mailbox. Please do not reply to this email. For assistance, contact {{contact_email}}.",
 
   "verify_email_subject": "Please verify your email for MorphoCloud",
-  "verify_email_body": "Hello,\n\nThank you for submitting the MorphoCloud intake form.\n\nPlease click the link below to verify your email address:\n\n{{verify_url}}\n\nThis link is unique to your submission. If you did not submit this form, please ignore this email.\n\n— MorphoCloud Team\n{{contact_email}}",
+  "verify_email_body": "Hello,\n\nThank you for submitting the MorphoCloud intake form.\n\nPlease click the link below to verify your email address:\n\n{{verify_url}}\n\nThis link is unique to your submission. If you did not submit this form, please ignore this email.\n\n— MorphoCloud Team\n{{contact_email}}\n\n⚠ This message was sent from an unmonitored mailbox. Please do not reply to this email. For assistance, contact {{contact_email}}.",
 
   "page_error_missing_params": "<h2>❌ Invalid verification link.</h2><p>The link is missing required parameters. Please resubmit the intake form.</p>",
   "page_error_config": "<h2>⚙️ Configuration error.</h2><p>The response sheet is missing required columns. Please contact the MorphoCloud administrator.</p>",
