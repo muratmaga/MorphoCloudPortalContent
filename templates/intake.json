@@ -1,7 +1,7 @@
 {
   "_comment": "User-facing text for intake/intake.gs. Edit here; changes are live within ~5 minutes (script cache TTL). Use {{placeholder}} syntax for dynamic values.",
 
-  "contact_email": "morphocloudportal@gmail.com",
+  "contact_email": "portal@morphocloud.org",
   "no_reply_disclaimer": "\n\n⚠ This message was sent from an unmonitored mailbox. Please do not reply to this email. For assistance, contact {{contact_email}}.",
 
   "verify_email_subject": "Please verify your email for MorphoCloud",
