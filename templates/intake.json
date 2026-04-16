@@ -17,11 +17,9 @@
 
   "invite_team_note_individual": "You have been invited to the MorphoCloud GitHub organization.",
   "invite_team_note_workshop": "You have been invited to the MorphoCloud GitHub organization as a Workshop Organizer.",
-  "invite_team_note_course": "You have been invited to your course team in the MorphoCloud GitHub organization.",
 
   "invite_msg_invited": "<div style='border:2px solid #e67e00;background:#fff8f0;padding:16px;border-radius:6px;margin-top:16px;'><p style='font-size:1.1em;margin:0 0 12px 0;'>⚠️ <strong>Action required within 7 days</strong></p><p>{{team_note}} GitHub invitations expire after <strong>7 days</strong>.</p><p><strong>Accept your invitation now:</strong></p><ol><li>Go to <a href='https://github.com/settings/organizations' target='_blank'>github.com/settings/organizations</a></li><li>Find the pending invitation from <strong>MorphoCloud</strong></li><li>Click <strong>Accept</strong></li></ol></div>",
   "invite_msg_already_member": "<p>You were already an organization member and have been added to the appropriate team directly.</p>",
   "invite_msg_skipped": "<p>You appear to already have a pending or active membership in the MorphoCloud GitHub organization. If you have not yet accepted an invitation, visit <a href='https://github.com/settings/organizations' target='_blank'>github.com/settings/organizations</a>.</p>",
-  "invite_msg_invalid_course_team": "<h2>❌ Course team not found.</h2><p>The Course Team Slug you entered (<code>{{slug}}</code>) does not match any active MorphoCloud course.</p><p>Please double-check the slug with your instructor and <a href='https://docs.google.com/forms/d/e/1FAIpQLSez2afddl8G-zM7iGYEFUGuk3221NhuswSpk20hmOTyVS0xOA/viewform' target='_blank'>resubmit the form</a> with the correct slug.</p>",
   "invite_msg_failure": "<p>Your email has been verified, but we were unable to send a GitHub organization invitation automatically. Please contact us at <a href='mailto:{{contact_email}}'>{{contact_email}}</a> quoting this error: <code>{{error_code}}</code></p>"
 }
