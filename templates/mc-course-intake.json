@@ -1,0 +1,14 @@
+{
+  "_comment": "User-facing text for mc-course-intake/mc-course-intake.gs. Edit here; changes are live within ~5 minutes (script cache TTL). Use {{placeholder}} syntax for dynamic values.",
+
+  "contact_email": "portal@morphocloud.org",
+
+  "received_subject": "MorphoCloud Course Request Received",
+  "received_body": "Dear {{instructor_name}},\n\nWe have received your MorphoCloud per-course allocation request for:\n\n  Course: {{course_name}}\n  Short identifier: {{course_id}}\n\nYour request is under review. You will receive a follow-up email once it is approved.\n\nQuestions? Contact {{contact_email}}\n\n-- The MorphoCloud Team",
+
+  "approved_subject": "MorphoCloud Course Approved \u2014 {{course_name}}",
+  "approved_body": "Dear {{instructor_name}},\n\nYour MorphoCloud per-course allocation request has been approved!\n\nCourse:        {{course_name}}\nGitHub Team:   {{team_slug}}\nGitHub Repo:   {{repo_url}}\n\nACTION REQUIRED \u2014 you have two pending GitHub invitations to accept:\n\n  1. MorphoCloud organization invitation:\n     Log in to GitHub, click your profile picture (top right),\n     choose 'Organizations', and accept the MorphoCloud invitation.\n\n  2. Repository invitation ({{repo_name}}):\n     In the same 'Organizations' view, or check your GitHub\n     notifications for a repository collaboration invitation.\n\nBoth must be accepted before you can access the repository and your\nteam membership becomes active.\n\nYour course repository is being provisioned. Our team will complete\nthe final setup steps and notify you once it is fully operational\nand ready for student enrollment.\n\nQuestions? Contact {{contact_email}}\n\n-- The MorphoCloud Team",
+
+  "rejected_subject": "MorphoCloud Course Request \u2014 Not Approved",
+  "rejected_body": "Dear {{instructor_name}},\n\nAfter review, we are unable to approve your MorphoCloud per-course allocation request for \"{{course_name}}\" at this time.\n\nIf you have questions or would like to discuss alternatives, please contact {{contact_email}}.\n\n-- The MorphoCloud Team"
+}
