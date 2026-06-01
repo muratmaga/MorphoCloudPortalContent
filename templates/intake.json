@@ -7,6 +7,9 @@
   "verify_email_subject": "Please verify your email for MorphoCloud",
   "verify_email_body": "Hello,\n\nThank you for submitting the MorphoCloud intake form.\n\nPlease click the link below to verify your email address:\n\n{{verify_url}}\n\nThis link is unique to your submission. If you did not submit this form, please ignore this email.\n\n— MorphoCloud Team\n{{contact_email}}\n\n⚠ This message was sent from an unmonitored mailbox. Please do not reply to this email. For assistance, contact {{contact_email}}.",
 
+  "workshop_organizer_confirm_subject": "You're now a MorphoCloud workshop organizer",
+  "workshop_organizer_confirm_body": "Hello {{name}},\n\nYou are now registered as a MorphoCloud Workshop Organizer (added to the MorphoCloudWorkshopOrganizers team).\n\nYou can open workshop instance requests here:\n\n{{workshop_request_url}}\n\nEach request is additionally reviewed by the MorphoCloud admins for approval before any instances are created.\n\n— MorphoCloud Team\n{{contact_email}}\n\n⚠ This message was sent from an unmonitored mailbox. Please do not reply to this email. For assistance, contact {{contact_email}}.",
+
   "page_error_missing_params": "<h2>❌ Invalid verification link.</h2><p>The link is missing required parameters. Please resubmit the intake form.</p>",
   "page_error_config": "<h2>⚙️ Configuration error.</h2><p>The response sheet is missing required columns. Please contact the MorphoCloud administrator.</p>",
   "page_error_invalid_token": "<h2>❌ Invalid or expired verification link.</h2><p>Please resubmit the intake form.</p>",
