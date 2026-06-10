@@ -19,6 +19,12 @@ from pathlib import Path
 # Keys each consumer reads. Removing or renaming one of these in the JSON
 # breaks the consumer at runtime, so all are required.
 REQUIRED_KEYS = {
+    "templates/instance-credentials.json": [
+        # send-email composite action (MorphoCloudWorkflow)
+        "contact_email",
+        "credentials_body",
+        "credentials_subject",
+    ],
     "templates/intake.json": [
         # join app (morphocloud-intake: email_client.py, main.py)
         "contact_email",
