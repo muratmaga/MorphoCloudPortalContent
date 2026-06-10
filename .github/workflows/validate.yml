@@ -1,0 +1,20 @@
+name: Validate templates
+
+# These templates feed production emails/pages at runtime (raw fetch, no
+# deploy step) — a malformed file or renamed key goes live in minutes.
+# Validate on every push so a typo can't silently break email sending.
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Validate template JSON, required keys, placeholders
+        run: python3 validate_templates.py
