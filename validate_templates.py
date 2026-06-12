@@ -25,6 +25,12 @@ REQUIRED_KEYS = {
         "credentials_body",
         "credentials_subject",
     ],
+    "templates/welcome.json": [
+        # post-acceptance welcome sender (to be built; keys fixed by this template)
+        "contact_email",
+        "welcome_body",
+        "welcome_subject",
+    ],
     "templates/intake.json": [
         # join app (morphocloud-intake: email_client.py, main.py)
         "contact_email",
